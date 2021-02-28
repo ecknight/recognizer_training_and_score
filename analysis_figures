@@ -1,4 +1,6 @@
-#rm(list=ls())
+#title: Analysis and figures for Knight and Bayne 2018. Classification threshold and training data affect the quality and utility of focal species data processed with automated audio-recognition software. Bioacoustics 10.1080/09524622.2018.1503971.
+#author: Elly C. Knight
+#date: Oct. 1, 2018
 
 library(stringi)
 library(tidyverse)
@@ -13,6 +15,7 @@ library(lme4)
 library(grDevices)
 library(gridExtra)
 
+#Proprietary library of functions from Zuur & Ieno
 source("/Users/ellyknight/Documents/R/Scripts/HighstatLibV10.R")
 
 options(scipen=999)
